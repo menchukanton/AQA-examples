@@ -1,0 +1,21 @@
+{
+  "name": "hillel_test_webdriverio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "wdio-chromedriver-service": "^0.1.0",
+    "webdriverio": "^4.8.0"
+  },
+  "devDependencies": {
+    "wdio-json-reporter": "^0.2.1",
+    "wdio-mocha-framework": "^0.5.11",
+    "wdio-spec-reporter": "^0.1.2"
+  }
+}
