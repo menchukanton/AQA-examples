@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite" verbose="1" >
+    <listeners>
+        <listener class-name="Utils.RerunFailure.RetryListener"/>
+        <listener class-name="Utils.RerunFailure.TestListener"/>
+    </listeners>
+    <test name="Main" >
+        <classes>
+            <class name="TestCases"/>
+        </classes>
+    </test>
+</suite>
